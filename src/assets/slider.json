@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Aarons Homes",
+        "price": "34,000,000",
+        "details": "Along kyambeke road kyambeke estate nairobi ",
+        "image": "./images/th (4).jpeg"
+    },
+    {
+        "name": "Glens court",
+        "price": "23,000,000",
+        "details": "Along kyambeke road kyambeke estate nairobi city acupying 50 by 100 plot all amenities available",
+        "image": "./images/th (5).jpeg"
+    },
+    {
+        "name": "Arnolds Estate",
+        "price": "13,000,000",
+        "details": "Along kyambeke road kyambeke estate nairobi city acupying 50 by 100 plot all amenities available",
+        "image": "./images/th (6).jpeg"
+    },
+    {
+        "name": "Mulewas garden city",
+        "price": "28,000,000",
+        "details": "Along kyambeke road kyambeke estate nairobi city acupying 50 by 100 plot all amenities available",
+        "image": "./images/th (7).jpeg"
+    },
+    {
+        "name": "Mwelus Housing",
+        "price": "17,000,000",
+        "details": "Along kyambeke road kyambeke estate nairobi city acupying 50 by 100 plot all amenities available",
+        "image": "./images/th (8).jpeg"
+    },
+    {
+        "name": "Johns Estate",
+        "price": "24,000,000",
+        "details": "Along kyambeke road kyambeke estate nairobi city acupying 50 by 100 plot all amenities available",
+        "image": "./images/th (9).jpeg"
+    }
+]
