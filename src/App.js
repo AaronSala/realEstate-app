@@ -1,11 +1,13 @@
-
 import Header from "./components/Header/Header";
-import Hero from "./components/hero/Hero"
+import Hero from "./components/hero/Hero";
 import Companies from "./components/Companies/Companies";
 import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Value/Value";
+import Contact from "./components/Contacts/Contact";
+import GetStarted from "./components/GetStarted/GetStarted";
+import Footer from "./components/Footer/Footer";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
       <Companies />
       <Residencies />
       <Value />
+      <Contact />
+      <GetStarted />
+      <Footer />
     </div>
   );
 }
