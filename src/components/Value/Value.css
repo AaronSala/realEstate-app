@@ -15,7 +15,7 @@
     
 }
 .accordionItem{
- 
+  
     background: white;
     border: 0.8px solid rgba(128, 128 ,128, 0.143);
     border-radius: 8px;
@@ -31,13 +31,13 @@
 
 .accordionButton{
 background: white;
-padding: 1rem;
+padding: 0.6rem;
 width: 100%;
 justify-content: center;
 cursor: pointer;
 }
 .icon{
-    padding: 10px;
+    padding: 8px;
     background: #eeeeff;
     border-radius: 5px;
 }
@@ -46,4 +46,16 @@ cursor: pointer;
 }
 .accordionButton .primaryText{
     font-size: 1.1rem;
+}
+
+
+@media(max-width: 1024px){
+.v-container{
+    flex-direction: column;
+}
+@media(max-width: 768px){
+    .accordionButton .primaryText{
+        font-size: 0.8rem;
+    }
+}
 }

@@ -14,11 +14,22 @@
 }
 .dot{
     top: 2.0rem;
-    left: 20rem;
+    left: 21rem;
     position: absolute;
     width: 1.5rem;
     height: 1.5rem;
     z-index: -1;
     background: var(--orange-gradient);
     border-radius: 50%;
+}
+
+@media(max-width: 768px){
+    .f-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center!important;
+        text-align: center;
+    }
 }

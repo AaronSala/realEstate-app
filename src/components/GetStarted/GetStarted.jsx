@@ -5,7 +5,7 @@ const GetStarted = () => {
   return (
     <div>
       <section className="g-wrapper">
-        <div className="paddings innerWidthg-container">
+        <div className="paddings  innerWidthg-container">
           <div className="flexColcenter inner-container">
           
             <span className="primaryText">Get Started with Arfrim</span>
@@ -13,7 +13,7 @@ const GetStarted = () => {
               find your residence soon
             </span>
             <button className="button">
-            <a href="salaaron2@gmial.com">Get Started</a>
+            <a href="#">Get Started</a>
             </button>
           </div>
         </div>

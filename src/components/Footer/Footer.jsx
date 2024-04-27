@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <section className="f-wrapper">
-        <div className="paddings innerWidth f-container">
+        <div className="paddings innerWidth  f-container">
           {/*left side */}
           <div className="flexColStart f-left">
                       <span className="logo primaryText">The Arfrim Housing</span>

@@ -2,7 +2,7 @@
     color: white;
     position: relative;
     padding-bottom: 2rem;
-   
+    z-index: 1;
 }
 
 .hero-container{
@@ -11,7 +11,7 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
 
 }
@@ -42,12 +42,17 @@
 }
 
 .search-bar{
+    gap: 2rem;
+        display: flex;
+        row-gap: 2rem;
+        align-items: center;
+        flex-wrap: wrap;
     width: 100%;
     background-color: white;
     border-radius: 5px;
     border: 3px solid rgba(120, 120, 120, 0.374);
     padding: 0.5rem 1rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .search-bar input{
@@ -78,4 +83,42 @@
 .image-container>img{
 width: 100%;
 height: 100%;
+}
+
+
+@media (max-width:640px){
+    .hero-container{
+margin-top: 2rem;
+    }
+    .hero-title h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .search-bar {
+        gap: 0rem;
+       
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .search-bar input{
+        width: 50%;
+    }
+    .image-container{
+        width: 95%;
+        height: 25rem;
+    }
+    .stats{
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .hero-right{
+        width: 100%;
+    }
+    .stat>:nth-child(1){
+        font-size: 1.5rem;
+    }
+        .stat>:nth-child(2) {
+            font-size: 0.8rem;
+        }
 }
